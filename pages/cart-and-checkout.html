@@ -7,5 +7,159 @@
     <h1>
         <u>Cart and Checkout</u>
     </h1>
+    <table border="1">
+        <tr>
+            <th>Plant Name</th>
+            <th>Plant Types</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td rowspan="5">Herbs</td>
+            <td>Basil</td>
+            <td>₹139.00</td>
+            <td><input type="number" value="1" min="1" id="basil-quantity" /></td>
+            <td id="basil-total">₹139.00</td>
+        </tr>
+        <tr>
+            <td>Thyme</td>
+            <td>₹79.00</td>
+            <td><input type="number" value="1" min="1" id="thyme-quantity" /></td>
+            <td id="thyme-total">₹79.00</td>
+        </tr>
+        <tr>
+            <td>Rosemary</td>
+            <td>₹189.00</td>
+            <td><input type="number" value="1" min="1" id="rosemary-quantity" /></td>
+            <td id="rosemary-total">₹189.00</td>
+        </tr>
+        <tr>
+            <td>Common Sage</td>
+            <td>₹189.00</td>
+            <td><input type="number" value="1" min="1" id="sage-quantity" /></td>
+            <td id="sage-total">₹189.00</td>
+        </tr>
+        <tr>
+            <td>Mint</td>
+            <td>₹22.00</td>
+            <td><input type="number" value="1" min="1" id="mint-quantity" /></td>
+            <td id="mint-total">₹22.00</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Shrubs</td>
+            <td>Rose</td>
+            <td>₹350.00</td>
+            <td><input type="number" value="1" min="1" id="rose-quantity" /></td>
+            <td id="rose-total">₹350.00</td>
+        </tr>
+        <tr>
+            <td>Maple</td>
+            <td>₹300.00</td>
+            <td><input type="number" value="1" min="1" id="maple-quantity" /></td>
+            <td id="maple-total">₹300.00</td>
+        </tr>
+        <tr>
+            <td>Barberries</td>
+            <td>₹300.00</td>
+            <td><input type="number" value="1" min="1" id="barberries-quantity" /></td>
+            <td id="barberries-total">₹300.00</td>
+        </tr>
+        <tr>
+            <td>Magnolia</td>
+            <td>₹400.00</td>
+            <td><input type="number" value="1" min="1" id="magnolia-quantity" /></td>
+            <td id="magnolia-total">₹400.00</td>
+        </tr>
+        <tr>
+            <td>Jasmine</td>
+            <td>₹350.00</td>
+            <td><input type="number" value="1" min="1" id="jasmine-quantity" /></td>
+            <td id="jasmine-total">₹350.00</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Trees</td>
+            <td>Thuja</td>
+            <td>₹450.00</td>
+            <td><input type="number" value="1" min="1" id="thuja-quantity" /></td>
+            <td id="thuja-total">₹450.00</td>
+        </tr>
+        <tr>
+            <td>Coconut</td>
+            <td>₹500.00</td>
+            <td><input type="number" value="1" min="1" id="coconut-quantity" /></td>
+            <td id="coconut-total">₹500.00</td>
+        </tr>
+        <tr>
+            <td>Guava</td>
+            <td>₹450.00</td>
+            <td><input type="number" value="1" min="1" id="guava-quantity" /></td>
+            <td id="guava-total">₹450.00</td>
+        </tr>
+        <tr>
+            <td>Jamun</td>
+            <td>₹450.00</td>
+            <td><input type="number" value="1" min="1" id="jamun-quantity" /></td>
+            <td id="jamun-total">₹450.00</td>
+        </tr>
+        <tr>
+            <td>Papaya</td>
+            <td>₹200.00</td>
+            <td><input type="number" value="1" min="1" id="papaya-quantity" /></td>
+            <td id="papaya-total">₹200.00</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Climbers and Creepers</td>
+            <td>Money Plant</td>
+            <td>₹400.00</td>
+            <td><input type="number" value="1" min="1" id="money-plant-quantity" /></td>
+            <td id="money-plant-total">₹400.00</td>
+        </tr>
+        <tr>
+            <td>Paan</td>
+            <td>₹200.00</td>
+            <td><input type="number" value="1" min="1" id="paan-quantity" /></td>
+            <td id="paan-total">₹200.00</td>
+        </tr>
+        <tr>
+            <td>Bitter Gourd</td>
+            <td>₹300.00</td>
+            <td><input type="number" value="1" min="1" id="bitter-gourd-quantity" /></td>
+            <td id="bitter-gourd-total">₹300.00</td>
+        </tr>
+        <tr>
+            <td>Grapevine Passion Flower</td>
+            <td>₹500.00</td>
+            <td><input type="number" value="1" min="1" id="grapevine-passion-flower-quantity" /></td>
+            <td id="grapevine-passion-flower-total">₹500.00</td>
+        </tr>
+        <tr>
+            <td>Mandevilla</td>
+            <td>₹430.00</td>
+            <td><input type="number" value="1" min="1" id="mandevilla-quantity" /></td>
+            <td id="mandevilla-total">₹430.00</td>
+        </tr>
+    </table>
+    <br />
+    <h3>Shipping Address</h3>
+    <form>
+        <label>Full Name: <input type="text" name="name" /></label><br>
+        <label>Address: <input type="text" name="address" /></label><br>
+        <label>City: <input type="text" name="city" /></label><br>
+        <label>State: <input type="text" name="state" /></label><br>
+        <label>Country: <input type="text" name="country" /></label><br>
+    </form>
+
+    <br />
+    <h3>Payment Details</h3>
+    <form>
+        <label>Card Number: <input type="text" name="card-number" /></label><br>
+        <label>Expiration Date: <input type="month" name="expiry" /></label><br>
+        <label>CVV: <input type="text" name="cvv" /></label><br>
+    </form>
+
+    <br />
+    <h3>Total: ₹6198.00</h3>
+    <button>Procced to Pay</button>
 </body>
 </html>
