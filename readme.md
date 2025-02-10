@@ -9,46 +9,46 @@ Everleaf Plant Store is an online marketplace specializing in a wide variety of 
 ##
 ***Home Page***
 
-![Home page image](./../icp-11-html-github-project-1-plant-store/images/readme/home.png)
+![](home.png)
 
 ##
 ***Catalog Page***
 
-![catalog page image](./../icp-11-html-github-project-1-plant-store/images/readme/catalog.png)
+![catalog page image](catalog.png)
 
 ##
 ***Details Page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/details.png)
+![page image](details.png)
 
 ##
 ***Care Guide page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/care-gude.png)
+![page image](care-gude.png)
 
 ##
 ***Cart and Checkout page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/cart-and-checkout.png)
+![page image](cart-and-checkout.png)
 
 ##
 ***Store Locator page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/store-locator.png)
+![page image](store-locator.png)
 
 ##
 ***Notifications page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/notifications.png)
+![page image](notifications.png)
 
 ##
 ***Login Page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/login.png)
+![page image](login.png)
 
 ##
 ***About-Us Page***
 
-![page image](./../icp-11-html-github-project-1-plant-store/images/readme/about-us.png)
+![page image](about-us.png)
 
 
