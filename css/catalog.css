@@ -1,0 +1,141 @@
+nav.sub-nav {
+    background-color: #e8f5e9; 
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 10px 0; 
+}
+
+nav.sub-nav a {
+    color: #2e7d32; 
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 6px 10px;
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+}
+
+nav.sub-nav a:hover {
+    background-color: #c8e6c9; 
+    color: #1b5e20; 
+}
+
+nav.sub-nav a:active {
+    transform: translateY(1px); 
+}
+nav.sub-nav span.separator {
+    color: rgba(46, 125, 50, 0.5);
+    font-weight: normal;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav.sub-nav {
+        padding: 8px;
+    }
+
+    nav.sub-nav a {
+        display: block;
+        margin: 8px 0;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    nav.sub-nav span.separator {
+        display: none; 
+    }
+}
+header {
+    padding: 20px;
+    text-align: center;
+    color: white; /* White text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+header h1 img {
+    vertical-align: middle; 
+}
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+section form input[type="text"],
+section form select,
+section form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section form input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+}
+
+section form select {
+    background-color: #f9f9f9;
+}
+
+section form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section form button:hover {
+    background-color: #45a049; 
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em; 
+        flex-direction: column; 
+        gap: 5px;
+    }
+
+    header h1 img {
+        height: 25px; 
+    }
+
+    section form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    section form input[type="text"],
+    section form select,
+    section form button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
